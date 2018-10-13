@@ -20,3 +20,4 @@ internal actual annotation class Volatile
 @Suppress("ACTUAL_WITHOUT_EXPECT")
 internal actual typealias JsName = kotlin.js.JsName
 
+actual annotation class SharedImmutable

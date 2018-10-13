@@ -20,3 +20,5 @@ internal expect annotation class JvmField()
 internal expect annotation class Volatile()
 
 internal expect annotation class JsName(val name: String)
+
+expect annotation class SharedImmutable()

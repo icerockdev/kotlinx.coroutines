@@ -20,3 +20,5 @@ internal actual typealias JvmField = kotlin.jvm.JvmField
 internal actual typealias Volatile = kotlin.jvm.Volatile
 
 internal actual annotation class JsName(actual val name: String)
+
+actual annotation class SharedImmutable

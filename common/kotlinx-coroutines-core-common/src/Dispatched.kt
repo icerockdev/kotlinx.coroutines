@@ -8,6 +8,7 @@ import kotlinx.coroutines.internal.*
 import kotlin.coroutines.*
 
 @Suppress("PrivatePropertyName")
+@SharedImmutable
 private val UNDEFINED = Symbol("UNDEFINED")
 
 internal class DispatchedContinuation<in T>(
